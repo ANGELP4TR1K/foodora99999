@@ -1,0 +1,687 @@
+@font-face {
+    font-family: 'Grotesk';
+    src: url(font-style/PPRightGrotesk-CompactDark.otf);
+}
+
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 0px;
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    height: 64px;
+    top: 0;
+    box-shadow: 0px 0.1rem 2rem lightgray;
+    background-color: white;
+    z-index: 25;
+}
+.nav_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 80%;
+}
+
+.jobbnav, .nyelv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.nyelvhu{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.jobbnav{
+    gap: 25px;
+}
+
+.bejelentkezes{
+    font-size: 14px;
+    border: 1px solid #242424;
+    color: #113837;
+    border-radius: 8px;
+    padding: 7.5px 15px;
+    font-weight: 300;
+    max-height: 32px;
+    margin: 0px;
+}
+
+.regisztracio{
+    font-size: 14px;
+    border-radius: 8px;
+    color: white;
+    padding: 7.5px 3px;
+    background-color: #DF1067;
+    font-weight: 300;
+    width: 100px;
+    text-align: center;
+}
+
+.elsodiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #faf9f6;
+}
+
+.cim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 56%;
+    font-weight: bolder;
+    
+}
+
+.cimkeret{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    margin-right: 2.5%;
+    background-color: white;
+    border-radius: 16px;
+    height: 80px;
+    box-shadow: 0 .188rem 1.25rem rgba(0,0,0,.1);
+    width: 90%;
+    max-width: 780px;
+}
+
+.cimkeret_fodorazz{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    width: 90%;
+    max-width: 780px;
+}
+
+.cimmezo{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding: 12px 16px 12px 15px;
+    height: 48px;
+    width: 100%;
+    
+    gap: 20px;
+}
+
+.etelkereses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 0px 10px;
+    color: white;
+    background-color: #DF1067;
+    font-weight: 600;
+    width: 120px;
+    height: 48px;
+    text-align: center;
+}
+
+.refresh{
+    height: 608px;
+    width: 44%;
+}
+
+.refreshkep{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 0px;
+}
+
+.cimmezobelso{
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.foodorazz{
+    align-self: flex-start;
+    letter-spacing: -1px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Grotesk';
+    margin: auto;
+}
+
+.helymeghatarozas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-end;
+    color: rgb(120, 120, 120);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.position{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-right: 5px;
+}
+
+.zacsko{
+    height: 404px;
+}
+
+.zacskokep{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-position: 0px;
+}
+
+.elkeszited{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elkeszited_szoveg{
+    letter-spacing: 0px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Grotesk';
+}
+
+.masodik_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 3;
+}
+
+.partner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: sticky;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    height: max-content;
+    box-shadow: 0 .188rem 1.25rem rgba(0,0,0,.1);
+    width: 80%;
+    max-width: 630px;
+    position: sticky;
+    top: -125px;
+    margin-top: -125px;
+}
+
+.szeretnel{
+    font-size: 24px;
+}
+
+.erdekel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 8px;
+    padding: 0px 10px;
+    color: white;
+    background-color: #DF1067;
+    font-weight: 200;
+    width: 65px;
+    height: 48px;
+    text-align: center;
+}
+
+
+
+.div_keret{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1440px;
+    justify-content: flex-start;
+}
+
+.harmadik_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.telepulesek_szoveg{
+    letter-spacing: -1px;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Grotesk';
+    margin: 40px 0 20px 0;
+}
+
+.telepules_szoveg{
+    display: flex;
+    position: sticky;
+    background-color: white;
+    margin-top: -195px;
+    top: 195px;
+    margin-left: -10px;
+    left: 10px;
+    z-index: 2;
+    height: 48px;
+    padding: 0 10px;
+    width: max-content;
+    border-radius: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.telepulesek{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.telepules{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 252px;
+    border-radius: 15px;
+    justify-content: flex-start;
+    overflow: hidden;  
+}
+
+.telepules_kep{
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    max-width: auto;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.pecs{
+    right: 95px;
+    margin-right: -95px;
+} 
+
+.negyedik_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.fedezdfel{
+    display: flex;
+    background-color: #DF1067;
+    border-radius: 15px;
+    height: 285px;
+    width: 96.57%;
+    padding: 25px;
+    color: white;
+}
+
+.kiscim{
+    letter-spacing: -1px;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Grotesk';
+}
+
+.elferunk{
+    margin: 40px 0 20px 0;
+}
+
+
+.fedezdfel_cim{
+    font-size: 24px;
+}
+
+.fedezdfel_kep{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-position: 0px;
+    top: 175px;
+    margin-top: -175px;
+}
+
+.fedezdfel_kepkeret{
+    display: flex;
+    height: 656px;
+    width: 50%;
+}
+
+.fedezdfel_szoveg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.toltsd{
+    width: 344px;
+}
+
+.qrcode{
+    height: 65px;
+}
+
+.qrcode_kulsokeret{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.qrcode_keret{
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.apps{
+    display: flex;
+    gap: 15px;
+}
+
+.iroda{
+    margin: 100px 0 20px 0;
+}
+
+.vallalat{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: sticky;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    height: max-content;
+    box-shadow: 0 .188rem 1.25rem rgba(0,0,0,.1);
+    width: 80%;
+    max-width: 630px;
+    position: sticky;
+    top: -100px;
+    margin-top: -100px;
+}
+
+.sushi{
+    height: 404px;
+}
+
+.sushi_kep{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-position: 0px;
+}
+
+.hatodik_div{
+    margin-top: 150px;
+    margin-bottom: 400px;
+}
+
+.lista_cim{
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.lista{
+    list-style-type: "✓ ";
+}
+
+li::marker{
+    color: #DF1067;
+}
+
+.csillag{
+    margin-left: 25px;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: #DF1067;
+}
+
+.elferunk, .elkeszited, .telepulesek_szoveg{
+    margin-top: 60px;
+}
+
+.nav_div2{
+    display: none;
+}
+
+.cimkeret2{
+    display: none;
+}
+
+.fedezdfel_kepkeret2{
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    .nav_div{
+        display: none;
+    }
+
+    nav{
+        height: 54px;
+        position: unset;
+    }
+
+    .nav_div2{   
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        align-items: baseline;
+    }
+
+    .refresh{
+        height: 216px;
+        width: 44%;
+    }
+
+    .cimkeret{
+        display: none;
+    }
+
+    .cimkeret2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        top: 25px;
+        margin-top: -25px;
+    }
+
+    .div_keret2{
+        margin: auto;
+        width: 95%;
+    }
+
+    .foodorazz{
+        align-self: flex-start;
+        letter-spacing: -1px;
+        font-size: 25px;
+        font-family: unset;
+        margin: auto;
+    }
+
+    .cimmezo{
+        background-color: white;
+        width: 100%;
+    }
+
+    .etelkereses{
+        padding: unset;
+        width: 100%;
+    }
+    
+    .div_keret{
+        width: 95%;
+    }
+
+    .kiscim{
+        margin-top: 75px;
+    }
+
+    .zacsko{
+        height: 514px;
+    }
+    
+
+    .partner{
+        padding: 30px;
+        height: 244px;
+        max-width: 750px;
+        top: -100px;
+        margin-top: -100px;
+    }
+
+    .szeretnel{
+        font-size: 20px;
+    }
+
+
+    .telepules{
+        width: 285px;
+        height: 212px;
+        border-radius: 15px;
+    }
+
+    .telepulesek{
+        gap: 15px;
+    }
+
+    .kismeret_szoveg{
+        margin-top: 100px;
+    }
+
+    .kismeret_szoveg2{
+        margin-top: -80px;
+    }
+
+    .telepules_szoveg{
+        position: sticky;
+        top: 157px;
+        margin-top: -157px;
+        left: 5px;
+        margin-left: -5px;
+        height: 48px;
+        padding: 0 15px;
+    }
+
+    .miskolc{
+        right: 15px;
+        margin-right: -15px;
+    }
+
+    .szentendre{
+        right: 20px;
+        margin-right: -20px;
+    }
+
+    .budakalasz{
+        right: 35px;
+        margin-right: -35px;
+    }
+
+    .fedezdfel{
+        flex-direction: column;
+        align-items: center;
+        height: 540px;
+        width: 95%;
+        padding: 25px;
+    }
+
+
+    .fedezdfel_kep{
+        top: unset;
+        margin-top: unset;
+    }
+    
+    .fedezdfel_kepkeret{
+        display: none;
+        
+    }
+
+    .fedezdfel_kepkeret2{
+        display: flex;
+        height: 656px;
+        width: 70%;
+        margin: auto;
+        top: 425px;
+        margin-top: -425px;
+    }
+
+    .fedezdfel_cim{
+        font-size: 20px;
+    }
+
+    .fedezdfel_szoveg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 220px;
+        width: 100%;
+    }
+
+    .toltsd{
+        width: unset;
+        text-align: center;
+    }
+
+    .qrcode_keret{
+        display: none;
+    }
+
+    .sushi_kep{
+        height: 514px;
+    }
+
+    .vallalat{
+        top: -15px;
+        margin-top: 15px;
+        height: 196px;
+        justify-content: space-evenly;
+    }
+
+    .szeretnel{
+        font-size: 18px;
+    }
+    
+    .hatodik_div{
+        left: 25px;
+        margin-left: -25px;
+    }
+
+  }
